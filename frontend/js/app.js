@@ -1,5 +1,6 @@
 // URL base de la API (si cambias el puerto, solo cambias aquí)
-const API_URL = 'https://product-manager-production-a2a0.up.railway.app/';
+// ✅ Reemplaza la línea actual por esta:
+const API_URL = 'https://product-manager-production-a2a0.up.railway.app/api/products';
 
 // ─────────────────────────────────────────────────
 // LEER — Cargar todos los productos y mostrarlos
