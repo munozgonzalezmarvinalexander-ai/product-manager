@@ -1,0 +1,9 @@
+# Ignorar las librerías instaladas (pesan mucho, se reinstalan con npm install)
+node_modules/
+
+# Ignorar el archivo con datos sensibles
+.env
+
+# Archivos de sistema de Windows
+Thumbs.db
+desktop.ini
