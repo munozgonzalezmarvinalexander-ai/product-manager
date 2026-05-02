@@ -13,7 +13,8 @@ const getAllProducts = async (req, res) => {
     res.json(rows);
   } catch (error) {
     // Si algo falla, respondemos con error 500 (error del servidor)
-    res.status(500).json({ message: 'Error al obtener los productos', error: error.message });
+    // ✅ Después - muestra más detalle del error
+res.status(500).json({ message: 'Error al obtener los productos', error: error.message, code: error.code, stack: error.stack });
   }
 };
 
